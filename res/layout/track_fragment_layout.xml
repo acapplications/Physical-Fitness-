@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:orientation="horizontal"
+        android:weightSum="4" >
+
+        <ImageButton
+            android:id="@+id/data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:shadowColor="@color/dark_blue"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="3" />
+
+        <ImageButton
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:shadowColor="@color/dark_blue"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="3" />
+
+        <ImageButton
+            android:id="@+id/graph"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:shadowColor="@color/dark_blue"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="3" />
+
+        <ImageButton
+            android:id="@+id/total_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:shadowColor="@color/dark_blue"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="3" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frame_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    
+    
+
+</LinearLayout>

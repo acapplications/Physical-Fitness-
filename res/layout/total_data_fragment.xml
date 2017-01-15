@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/mmol_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:shadowColor="@color/blue"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="3"
+            android:text="mmol/l"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <RelativeLayout
+            android:id="@+id/mmol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/mmol_txt"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_selector" >
+
+            <TextView
+                android:id="@+id/max_txt_mmol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="7dp"
+                android:shadowColor="@color/blue"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="3"
+                android:text="@string/maximum"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/max_mmol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/max_txt_mmol"
+                android:layout_alignBottom="@+id/max_txt_mmol"
+                android:layout_marginLeft="28dp"
+                android:layout_toRightOf="@+id/max_txt_mmol"
+                android:shadowColor="@color/blue"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="3"
+                android:text="Large Text"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/mean_txt_mmol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/max_txt_mmol"
+                android:layout_below="@+id/max_txt_mmol"
+                android:layout_marginTop="16dp"
+                android:shadowColor="@color/blue"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="3"
+                android:text="@string/mean"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/mean_mmol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/mean_txt_mmol"
+                android:layout_alignRight="@+id/max_mmol"
+                android:shadowColor="@color/blue"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="3"
+                android:text="Large Text"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/min_txt_mmol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/mean_txt_mmol"
+                android:layout_below="@+id/mean_txt_mmol"
+                android:layout_marginTop="16dp"
+                android:shadowColor="@color/blue"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="3"
+                android:text="@string/minimum"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/min_mmol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/min_txt_mmol"
+                android:layout_alignRight="@+id/mean_mmol"
+                android:shadowColor="@color/blue"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="3"
+                android:text="Large Text"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/mg_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/mmol_txt"
+            android:layout_below="@+id/mmol"
+            android:layout_marginTop="20dp"
+            android:shadowColor="@color/blue"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="3"
+            android:text="mg/dl"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/mg_txt"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_selector"
+            android:shadowColor="@color/blue"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="3" >
+
+            <TextView
+                android:id="@+id/max_txt_mg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="7dp"
+                android:shadowColor="@color/blue"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="3"
+                android:text="@string/maximum"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/max_mg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/max_txt_mg"
+                android:layout_alignBottom="@+id/max_txt_mg"
+                android:layout_marginLeft="28dp"
+                android:layout_toRightOf="@+id/max_txt_mg"
+                android:shadowColor="@color/blue"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="3"
+                android:text="Large Text"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/mean_txt_mg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/max_txt_mg"
+                android:layout_below="@+id/max_txt_mg"
+                android:layout_marginTop="16dp"
+                android:shadowColor="@color/blue"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="3"
+                android:text="@string/mean"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/mean_mg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/mean_txt_mg"
+                android:layout_alignRight="@+id/max_mg"
+                android:shadowColor="@color/blue"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="3"
+                android:text="Large Text"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/min_txt_mg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/mean_txt_mg"
+                android:layout_below="@+id/mean_txt_mg"
+                android:layout_marginTop="16dp"
+                android:shadowColor="@color/blue"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="3"
+                android:text="@string/minimum"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/min_mg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/min_txt_mg"
+                android:layout_alignRight="@+id/mean_mg"
+                android:shadowColor="@color/blue"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="3"
+                android:text="Large Text"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="comp.diabetesfitness.Tags" >
+
+    <item
+        android:id="@+id/add_tag"
+        android:icon="@drawable/ic_add_circle_outline_black_18dp"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title=""/>
+    <item
+        android:id="@+id/remove_tag"
+        android:icon="@drawable/ic_indeterminate_check_box_black_24dp"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title=""/>
+
+</menu>
