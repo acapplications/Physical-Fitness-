@@ -18,6 +18,6 @@ By choosing Physical Fitness app for your workouts you get:
 - English interface.
 - Best usability and design on the Play Store among competitors!
 You won’t be disappointed when you train hard with Fitness Buddy.
-Join the 100 people who have downloaded P apps in such a short span of time to help achieve your own fitness goals.
+Join the 40,000 people who have downloaded P apps in such a short span of time to help achieve your own fitness goals.
 This app is free, we only ask you for your positive rating so that more people knows the app and we can keep improving it
 We hope you like it!!
