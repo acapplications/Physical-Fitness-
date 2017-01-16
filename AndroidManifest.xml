@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ac.physicalfitnesspro"
+    android:versionCode="4"
+    android:versionName="1.4" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="24" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/CustomActionBarTheme" >
+        <activity
+            android:name="ac.physicalfitnesspro.SplashScreen"
+            android:label="@string/app_name1" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" >
+        </activity>
+        <activity
+            android:name="ac.physicalfitnesspro.PhysicalSchedule"
+            android:label="@string/title_activity_diabetes_schedule" >
+        </activity>
+        <activity
+            android:name="ac.physicalfitnesspro.PhysicalFitnessActivity"
+            android:label="PHYSICAL FITNESS" >
+        </activity>
+        <activity
+            android:name="ac.physicalfitnesspro.CreateWorkoutActivity"
+            android:label="CREATE WORKOUT" >
+        </activity>
+        <activity
+            android:name="ac.physicalfitnesspro.GuideLines"
+            android:label="@string/title_activity_guide_lines" >
+        </activity>
+        <activity
+            android:name="ac.physicalfitnesspro.Picture"
+            android:label="@string/title_activity_picture" >
+        </activity>
+        <activity
+            android:name="ac.physicalfitnesspro.BMIActivity"
+            android:label="BMI" >
+        </activity>
+        <activity
+            android:name="ac.physicalfitnesspro.Description"
+            android:label="@string/title_activity_description" >
+        </activity>
+        <activity
+            android:name="ac.physicalfitnesspro.WorkoutNameDays"
+            android:label="@string/title_activity_workout_name_days" >
+        </activity>
+        <activity
+            android:name="ac.physicalfitnesspro.TotalWorkout"
+            android:label="@string/title_activity_total_workout" >
+        </activity>
+   
+    </application>
+
+</manifest>
